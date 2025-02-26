@@ -19,7 +19,7 @@ const middlewares = (app) => {
 }
 
 const routes = (app) =>{
-    app.use("/opinionSystem/v1/auth", authRoutes)
+    app.use("/coperexSystem/v1/auth", authRoutes)
 }
 
 
